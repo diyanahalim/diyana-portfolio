@@ -29,7 +29,7 @@
 .right-container {
     /* margin-left: -10rem; */
     width: 60%;
-    height: 57vh;
+    height: 20rem;
     background: url(../images/diyana_cropped.png);
     -webkit-background-size: cover;
     background-size: cover;
@@ -101,7 +101,7 @@
 .right-container {
     /* margin-left: -10rem; */
     width: 90%;
-    height: 35vh;
+    height: 15rem;
     /* margin-top: 5%;
     margin-bottom: 20%; */
     order: 1;
@@ -142,9 +142,9 @@
 
 @media  (min-width: 768px) and (max-width: 1200px) {
     
-    .right-container {
+    /* .right-container {
         width: 90%;
-        height: 30vh;
-    }
+        height: 30rem;
+    } */
 }
   
