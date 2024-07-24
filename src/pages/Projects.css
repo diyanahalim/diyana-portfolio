@@ -22,7 +22,7 @@
     /* background:
     conic-gradient(from 90deg at 1px 1px,#0000 90deg, rgb(1, 0, 254) 0) 
     0 0/50px 50px; */
-    --s: 100px;  /* control the size of the grid */
+    --s: 6.3rem;  /* control the size of the grid */
     --t: 1.5px;   /* the thickness */
   
     background:  
@@ -337,6 +337,7 @@
 
 .grid {
     --t: 1px;   
+    --s: 4rem;
 }
 
 .grid-description {
@@ -370,22 +371,6 @@
     margin-top: unset;
 }
 
-.grid {
-    /* height: 21rem;
-    width: 34.2%;
-    background-image:
-        linear-gradient(to right, rgb(1, 0, 254) 1px, transparent 1px),
-        linear-gradient(to bottom, rgb(1, 0, 254) 1px, transparent 1px);
-    background-size: 4rem 4rem;
-    background-position: left center; */
-    /* background:
-    conic-gradient(from 90deg at 1px 1px,#0000 90deg, rgb(1, 0, 254) 0) 
-    0 0/50px 50px; */
-    --s: 17vw;  /* control the size of the grid */
-    
-    /* margin-bottom: 5rem; */
-   
-}
 
 .grid-container:nth-child(even) > :last-child {
     order: 2;

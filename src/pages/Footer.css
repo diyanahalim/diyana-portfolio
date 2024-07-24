@@ -5,7 +5,7 @@
     width: fit-content;
     overflow: hidden;
     pointer-events: none;
-    z-index: 2;
+    z-index: 1;
 }
 
 .footer-icon {

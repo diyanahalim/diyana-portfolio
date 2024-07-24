@@ -117,16 +117,15 @@
 .navbar-menu {
     display: none;
     position: absolute;
-    background: rgb(1, 0, 254);
+    background: #0100fe;
     width: 100vw;
     height: 100vh;
-    top: 6%;
+    top: -15%;
     left: 50%;
     transform: translate(-50%, -6%);
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    z-index: 3;
 }
 
 .bar:nth-child(1), .bar:nth-child(2), .bar:nth-child(3) {
