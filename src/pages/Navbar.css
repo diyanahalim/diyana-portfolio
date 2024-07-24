@@ -126,6 +126,7 @@
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    z-index: 3;
 }
 
 .bar:nth-child(1), .bar:nth-child(2), .bar:nth-child(3) {
