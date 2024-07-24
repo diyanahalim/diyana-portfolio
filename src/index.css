@@ -1,8 +1,37 @@
-body {
+
+@font-face {
+  font-family: "Augify";   /*Can be any text*/
+  src: local("Augify"),
+    url("./fonts/Augify.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Practice";   /*Can be any text*/
+  src: local("Practice"),
+    url("./fonts/Practice.otf") format("opentype");
+}
+
+
+* {
   margin: 0;
+}
+
+
+html {
+  background: #0100fe;
+  /* margin-left: 3%;
+  margin-right: 3%; */
+  /* padding-left: 3%; */
+  /* padding-left: 3%;
+  padding-right: 50%; */
+  margin-left: auto;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
     sans-serif;
+  font-family: "Playfair Display", "Lora", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

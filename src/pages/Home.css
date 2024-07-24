@@ -1,0 +1,150 @@
+
+.home {
+    display: flex;
+    align-items: center;
+    padding: 8% 4% 6% 8%;
+    position: relative;
+    /* margin-top: 3%; */
+}
+
+.introduction-title, .introduction-description, .skills-container {
+    font-family: "Augify";
+    color: #0100fe;
+    text-align: left;
+    width: 35%;
+    font-size: 5rem;
+    /* margin-top: 4rem; */
+}
+
+.left-container {
+    color: transparent;
+}
+
+.introduction-description {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    width: fit-content;
+}
+
+.right-container {
+    /* margin-left: -10rem; */
+    width: 60%;
+    height: 57vh;
+    background: url(../images/diyana_cropped.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 20px 5px 5px rgb(1, 0, 254);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: fit-content;
+}
+
+.skill-logo {
+    max-width: 2rem;
+    max-height: 2rem;
+    cursor: pointer;
+}
+
+.home .skill-logo:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes animate {
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@media  (max-width: 768px) {
+
+.introduction-title, .introduction-description, .skills-container {
+    font-family: "Augify";
+    color: #0100fe;
+    text-align: left;
+    width: 100%;
+    font-size: 2rem
+}
+
+.right-container {
+    /* margin-left: -10rem; */
+    width: 90%;
+    height: 35vh;
+    /* margin-top: 5%;
+    margin-bottom: 20%; */
+    order: 1;
+    margin: auto;
+}
+
+.left-container {
+    order: 2;
+    margin-top: 15%;
+}
+
+.home {
+    flex-direction: column;
+    padding: unset;
+    padding-top: 35%;
+    align-items: unset;
+}
+
+.introduction-title {
+    font-size: 2rem;
+    margin-left: 3%;
+}
+.introduction-description {
+    font-size: 1rem;
+    margin-left: 3%;
+    /* text-align: center; */
+    /* margin-top: 4rem; */
+}
+
+.skills-container {
+    order: 3;
+    position: unset;
+    margin-top: 5%;
+    justify-content: center;
+}
+}
+
+
+@media  (min-width: 768px) and (max-width: 1200px) {
+    
+    .right-container {
+        width: 90%;
+        height: 30vh;
+    }
+}
+  
