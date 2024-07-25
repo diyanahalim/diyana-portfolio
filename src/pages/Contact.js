@@ -4,8 +4,8 @@ import '../pages/Contact.css'
 const Contact = () => {
   return (
     <div id="contact" className="contact">
-        <h1>Hoping to connect with you soon</h1>
-        {/* <div class="loader"></div> */}
+        <h1>Hoping to connect with you soon<div class="loader"></div></h1>
+        
         {/* <div className="img-container">
             <span></span>
         </div> */}
