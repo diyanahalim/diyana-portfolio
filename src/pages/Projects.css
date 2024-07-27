@@ -1,10 +1,7 @@
 .projects {
     padding: 2.7% 4%;
-    /* display: flex;
-    justify-content: center; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
     height: fit-content;
     flex: 1;
     position: relative;
@@ -12,35 +9,20 @@
 
 
 .grid {
-    /* height: 21rem;
-    width: 34.2%;
-    background-image:
-        linear-gradient(to right, rgb(1, 0, 254) 1px, transparent 1px),
-        linear-gradient(to bottom, rgb(1, 0, 254) 1px, transparent 1px);
-    background-size: 4rem 4rem;
-    background-position: left center; */
-    /* background:
-    conic-gradient(from 90deg at 1px 1px,#0000 90deg, rgb(1, 0, 254) 0) 
-    0 0/50px 50px; */
     --s: 6.3rem;  /* control the size of the grid */
     --t: 1.5px;   /* the thickness */
   
     background:  
       conic-gradient(from 90deg at var(--t) var(--t),#0000 25%,rgb(1, 0, 254) 0)
        0 0/var(--s) var(--s);
-    /* you probably don't need to set any size in your case */
-    /* width: calc(round(down,50%,var(--s)) + var(--t)); */
     width: calc(5*var(--s) + var(--t));
     height: calc(5*var(--s) + var(--t));
-    /* margin-top: -5%; */
     position: relative;
-    /* margin-bottom: 5rem; */
    
 }
 
 .grid:nth-child(even) {
     margin-left: auto;
-    /* clear: right; */
 }
 
 .grid:first-child {
@@ -49,17 +31,6 @@
 
 
 
-
-/* .grid-2, .grid-4 {
-    position: relative;
-    top: 20rem;
-} */
-
-
-
-/* .grid-3 {
-    transform: translateY(-5rem);
-} */
 
 
 
@@ -74,47 +45,23 @@
 
 .grid-container > :last-child {
     margin: auto;
-    /* display: flex; */
 }
 
 .grid-container:nth-child(even) > :last-child {
     order: 1;
-    /* display: flex; */
 }
 
 .grid-container:nth-child(even) > :first-child {
     order: 2;
-    /* display: flex; */
 }
 
 
 
-.project-title {
-    /* 
-    height: 4.92rem;
-    border: 1.5px solid rgb(1, 0, 254);
-    border-bottom: 0px solid rgb(1, 0, 254);
-    
-    overflow: hidden;
-    */
-    /* width: 79.5%;
-    float: right;  */
-    /* background: #fedcdb; */
-    /* height: 19.7%;
-    background: #fedcdb; 
-    border: 1.5px solid rgb(1, 0, 254);
-    width: 104.5%; */
-}
 
 .project-title h1 {
     margin-left: 1rem;
 }
 
-.project-title, .project-index {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-}
 
 .grid h1 {
     font-family: "Augify";
@@ -128,33 +75,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: #fedcdb; */
-    /* border: 1.5px solid rgb(1, 0, 254); */
 }
 
-
-/* .project-description {
-    width: 100%;
-    position: absolute;
-    height: 100%;
-    right: -37.3rem;
-    top: 0;
-    display: flex;
-    align-items: center;
-    font-family: "Practice";
-    color: rgb(1, 0, 254);
-    font-size: 0.8rem;
-} */
-
 .grid-description {
-    /* width: 100%; */
-    /* position: absolute;
-    height: 100%;
-    right: -119%;
-    top: 0; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
     font-family: "Practice";
     color: #0000;
     background: linear-gradient(rgb(1, 0, 254) 0 0) no-repeat;
@@ -170,16 +93,6 @@
     animation: t 1.2s .1s both;
 }
 
-/* .show {
-    opacity: 1;
-    color: #0000;
-    background: linear-gradient(rgb(1, 0, 254) 0 0) no-repeat;
-  background-size: 0% 100%;
-  -webkit-background-clip: text;
-          background-clip: text;
-  animation: t 1.2s .5s both;
-  border: 1px solid black;
-} */
 
 .grid-description p {
     font-size: 0.7rem;
@@ -187,40 +100,13 @@
     text-align: justify;
     text-justify: inter-word;
     margin-top: 5%;
-    /* opacity: 0;
-    position: relative;
-    bottom: -40px;
-    transition: all 0.8s ease-out; */
 }
 
 
-.grid-right-side > * {
-    /* margin-left: 9.5%;
-    margin-right: 9.5%; */
-}
-/* .grid-right-side h4 {
-    opacity: 0;
-    position: relative;
-    bottom: -40px;
-    transition: all 0.8s ease-out;
-} */
-
-/* .show {
-    opacity: 1;
-    bottom: 0;
-} */
-
-
-/* .project-description {
-    font-size: 5rem;
-} */
 
 
 
 .grid .image {
-    /* width: 100%; */
-    /* height: 100%;
-    object-fit: cover; */
     height: 40%;
     width: 70%;
     background: blue;
@@ -233,9 +119,7 @@
 }
 
 .image-mobile {
-    /* display: none; */
     width: 95%;
-    /* height: 100%; */
     position: absolute;
   top: 50%;
   left: 50%;
@@ -252,32 +136,9 @@
     
 }
 
-/* .grid img:first-child {
-    z-index: 3;
-} */
 
-/* .grid img:nth-child(3) {
-    z-index: 0;
-} */
-
-/* .grid img:nth-child(2) {
-    z-index: 1000;
-    transform:rotate(20deg);
-    border: 5px solid white;
-} */
-
-.img-container {
-    /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  /* transition: transform .2s;
-  cursor: pointer; */
-}
 
 .grid .image:nth-child(1) {
-    /* transform:rotate(10deg); */
-    /* transform: rotate(5deg) translate(-160px, -80px); */
     z-index: 1;
     transform: rotate(2deg) translate(-50%, -50%); 
     
@@ -290,16 +151,8 @@
 
 .grid .image:nth-child(3) {
     transform: rotate(-10deg) translate(-60%, -50%);
-    /* transform:rotate(-20deg); */
-    /* transform: rotate(45deg); */
-    /* transform: rotate(-20deg) translate(-160px, -90px); */
 }
 
-/* .img-container:hover {
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-    transform: scale(1.5);
-} */
 
 
 
@@ -341,21 +194,7 @@
 }
 
 .grid-description {
-    /* width: 100%;
-    position: absolute;
-    height: 100%; */
     right: 0;
-    /* top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: "Practice";
-    gap: 2rem;
-    color: #0000;
-    background: linear-gradient(rgb(1, 0, 254) 0 0) no-repeat;
-  background-size: 0% 100%;
-  -webkit-background-clip: text;
-          background-clip: text; */
 }
 
 .grid-container {
@@ -374,12 +213,10 @@
 
 .grid-container:nth-child(even) > :last-child {
     order: 2;
-    /* display: flex; */
 }
 
 .grid-container:nth-child(even) > :first-child {
     order: 1;
-    /* display: flex; */
 }
 
 .projects {
@@ -389,19 +226,12 @@
 .grid-description p {
     font-size: 0.8rem;
     line-height: 1.5rem;
-    /* opacity: 0;
-    position: relative;
-    bottom: -40px;
-    transition: all 0.8s ease-out; */
 }
 
 .grid-description h4 {
     font-size: 1.2rem;
 }
 
-/* .grid .image {
-    display: none;
-} */
 
 
 }
