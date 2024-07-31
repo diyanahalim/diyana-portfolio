@@ -28,5 +28,5 @@ export const projects = [{
     project_image: [img7, img8, img9],
     project_title: '03. Todo List App',
     project_description: 'Just another typical todo-list app but with a nice touch of futuristic design. This app was built with ReactJS and allows users to add tasks, mark tasks as completed, edit or delete task and view the task.',
-    link: 'https://tutoreal.vercel.app',
+    link: 'https://react-to-do-app-one-beryl.vercel.app/',
 }];
