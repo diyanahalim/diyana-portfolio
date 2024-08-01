@@ -16,7 +16,6 @@
 }
 
 
-
 .app {
     position: fixed;
     top: 20px;
@@ -32,37 +31,22 @@
     padding-top: 0;
     overflow-y: scroll;
     overflow-x: hidden;
-    /* animation: 0.5s ease-out 0s 1 slideInFromBottom; */
     animation: smooth 1s ease  0s 1;
-    /* height: 90%; */
-    /* animation: smooth-appear 1s ease forwards; */
-    /* transform: translateX(-50%); */
-    /* left: 50%; */
-    /* bottom: -100%; */
 }
 
 ::-webkit-scrollbar-track {
     background: none;
-  }
-  ::-webkit-scrollbar {
+}
+
+::-webkit-scrollbar {
     width: 5px;
     height: 5px;
-  }
-  ::-webkit-scrollbar-thumb {
+}
+  
+::-webkit-scrollbar-thumb {
     background: #0100fe;
     border-radius: 5px;
-    
-  }
-
-/* .main > *:not(:last-child){
-    margin-bottom: 3%;
-} */
-
-
-
-/* .navbar {
-  top: 7%;
-} */
+}
 
 .footer {
   bottom: 7%;
@@ -71,27 +55,11 @@
 
 .navbar, .footer {
   position: fixed;
-  /*   */
 }
 
 .main > *{
   margin-bottom: 3rem;
 }
-
-/* .main {
-  position: relative;
-} */
-/* .main > *:not(:first-child){
-  animation: 0.5s ease-out 0s 1 slideInFromBottom;
-  background: #fedcdb;
-} */
-
-/* .woi {
-  border: 5px solid red;
-  width: 80%;
-  margin: auto;
-  z-index: 5;
-} */
 
 @media  (max-width: 768px) {
 

@@ -8,7 +8,6 @@ import skill5 from '../images/skill5.png';
 import skill6 from '../images/skill6.png';
 import skill7 from '../images/skill7.png';
 import skill8 from '../images/skill8.png';
-// import profile_image from '../images/diyana.png'
 
 const Home = () => {
   

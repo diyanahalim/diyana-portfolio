@@ -1,12 +1,12 @@
 
 @font-face {
-  font-family: "Augify";   /*Can be any text*/
+  font-family: "Augify";  
   src: local("Augify"),
     url("./fonts/Augify.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "Practice";   /*Can be any text*/
+  font-family: "Practice";   
   src: local("Practice"),
     url("./fonts/Practice.otf") format("opentype");
 }
@@ -19,11 +19,6 @@
 
 html {
   background: #0100fe;
-  /* margin-left: 3%;
-  margin-right: 3%; */
-  /* padding-left: 3%; */
-  /* padding-left: 3%;
-  padding-right: 50%; */
   margin-left: auto;
 }
 
@@ -34,9 +29,4 @@ body {
   font-family: "Playfair Display", "Lora", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

@@ -6,8 +6,6 @@ const Projects = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   useEffect(() => {
-    
-  var myIndex = 0;
     const options = {
       root: null,
       threshold: 0.9,
@@ -20,17 +18,6 @@ const Projects = () => {
     
     })
 
-    function carousel() {
-      var i;
-      var x = document.querySelectorAll(".image-mobile");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1}    
-      x[myIndex-1].style.display = "block";  
-      setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
     window.addEventListener("resize", () => {
       const ismobile = window.innerWidth < 768;
       if (ismobile !== isMobile) {
@@ -38,9 +25,6 @@ const Projects = () => {
       }
         
   }, false);
-
- 
-
   }, [isMobile])
 
   const callback = function (entries) {

@@ -12,20 +12,14 @@
     position: relative;
     max-width: 2rem;
     max-height: 2rem;
-    /* cursor: pointer; */
     margin-right: 0.5rem;
-    /* background: #fedcdb; */
     z-index: 1;
     overflow: hidden;
     pointer-events: auto;
-    /* display: inline-block; */
-    /* transform: translateX(-100%);
-  transition: transform .3s ease-in-out; */
 }
 
 .footer-text {
     display: inline-block;
-    /* border: 1px solid blue; */
     font-family: "Practice";
     font-size: 0.8rem;
     color: rgb(1, 0, 254);
@@ -33,21 +27,7 @@
     transition: transform .3s ease-in-out;
     overflow: hidden;
     pointer-events: auto;
-    /* pointer-events: auto; */
-    /* color: transparent; */
-    /* transform: translateX(-5%);
-    transition: transform .3s ease-in-out; */
-    /* 
-     */
 }
-
-
-
-
-/* .footer-icon:hover .footer-box {
-    width: 100%;
-} */
-
 
 .footer-box {
     overflow: hidden;
@@ -55,26 +35,14 @@
     align-items: center;
 }
 
-
-/* .footer-box > * {
-    vertical-align: middle;  
-    pointer-events: auto;
-} */
-
-
 .footer a {
     display: flex;
     pointer-events: none;
     text-decoration: none;
 }
-/* .footer-box > *:hover + .footer-text {
-    transform: translateX(0);
-} */
-
 
 .footer a:hover > .footer-box .footer-text {
     transform: translateX(0);
-    /* color: rgb(1, 0, 254); */
 }
 
 .footer-text:hover {

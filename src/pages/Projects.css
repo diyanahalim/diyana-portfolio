@@ -7,7 +7,6 @@
     position: relative;
 }
 
-
 .grid {
     --s: 6.3rem;  /* control the size of the grid */
     --t: 1.5px;   /* the thickness */
@@ -28,11 +27,6 @@
 .grid:first-child {
     margin-top: unset;
 }
-
-
-
-
-
 
 .grid-container {
     display: flex;
@@ -55,13 +49,9 @@
     order: 2;
 }
 
-
-
-
 .project-title h1 {
     margin-left: 1rem;
 }
-
 
 .grid h1 {
     font-family: "Augify";
@@ -81,18 +71,15 @@
     font-family: "Practice";
     color: #0000;
     background: linear-gradient(rgb(1, 0, 254) 0 0) no-repeat;
-  background-size: 0% 100%;
-  -webkit-background-clip: text;
-          background-clip: text;
-          width: 40%;
+    background-size: 0% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: 40%;
 }
 
 .grid-description.show {
-    
-    
     animation: t 1.2s .1s both;
 }
-
 
 .grid-description p {
     font-size: 0.7rem;
@@ -101,10 +88,6 @@
     text-justify: inter-word;
     margin-top: 5%;
 }
-
-
-
-
 
 .grid .image {
     height: 40%;
@@ -121,40 +104,31 @@
 .image-mobile {
     width: 95%;
     position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .image-mobile:nth-child(2) {
     display: none;
-    
 }
 
 .image-mobile:nth-child(3) {
     display: none;
-    
 }
-
-
 
 .grid .image:nth-child(1) {
     z-index: 1;
     transform: rotate(2deg) translate(-50%, -50%); 
-    
 }
 
 .grid .image:nth-child(2) {
     transform: rotate(10deg) translate(-40%, -50%);
-    
 }
 
 .grid .image:nth-child(3) {
     transform: rotate(-10deg) translate(-60%, -50%);
 }
-
-
-
 
 .img-container:hover  .image:nth-child(1) {
     -ms-transform: scale(1.1); 
@@ -210,7 +184,6 @@
     margin-top: unset;
 }
 
-
 .grid-container:nth-child(even) > :last-child {
     order: 2;
 }
@@ -231,8 +204,6 @@
 .grid-description h4 {
     font-size: 1.2rem;
 }
-
-
 
 }
 
