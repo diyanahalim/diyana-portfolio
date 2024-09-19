@@ -24,7 +24,7 @@
     width: fit-content;
 }
 
-.right-container {
+/* .right-container {
     width: 60%;
     height: 20rem;
     background: url(../images/diyana_cropped.png);
@@ -34,7 +34,7 @@
     box-shadow: 0 20px 5px 5px rgb(1, 0, 254);
     animation: animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
-}
+} */
 
 .skills-container {
     display: flex;
