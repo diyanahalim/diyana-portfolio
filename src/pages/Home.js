@@ -18,7 +18,7 @@ const Home = () => {
           Diyana's Portfolio
         </h1>
         <h2 className="introduction-description">
-          Frontend Developer 
+          Data Analyst/Frontend Developer 
         </h2>
         <div className="skills-container">
           <img src={skill1} className="skill-logo" alt="Logo" />
