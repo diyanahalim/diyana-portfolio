@@ -44,7 +44,6 @@ const Projects = () => {
           <a href={project.link} target="_blank">
             <div className="img-container">
               <img className={`${isMobile ? "image-mobile" : "image"}`} src={project.project_image[0]} alt="Logo" />
-              <img className={`${isMobile ? "image-mobile" : "image"}`} src={project.project_image[0]} alt="Logo" />
               <img className={`${isMobile ? "image-mobile" : "image"}`} src={project.project_image[1]} alt="Logo" />
               <img className={`${isMobile ? "image-mobile" : "image"}`} src={project.project_image[2]} alt="Logo" />
             </div>
