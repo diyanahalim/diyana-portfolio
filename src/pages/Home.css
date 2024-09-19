@@ -10,7 +10,7 @@
     font-family: "Augify";
     color: #0100fe;
     text-align: left;
-    width: 35%;
+    width: 60%;
     font-size: 5rem;
 }
 
@@ -18,10 +18,15 @@
     color: transparent;
 }
 
+
 .introduction-description {
     font-size: 2.5rem;
     margin-top: 1rem;
-    width: fit-content;
+}
+
+.break:before {
+    content:"\A";
+    white-space:pre;
 }
 
 /* .right-container {

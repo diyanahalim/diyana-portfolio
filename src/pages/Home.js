@@ -15,10 +15,11 @@ const Home = () => {
     <div id="home" className="home">
       <div className="left-container">
         <h1 className="introduction-title">
-          Diyana's Portfolio WOOOOOOOOOOOOOOW
+          Diyana's Portfolio
         </h1>
         <h2 className="introduction-description">
-          Data Analyst/Frontend Developer 
+          Data Analyst/
+          <span class="break">Frontend Developer </span>
         </h2>
         <div className="skills-container">
           <img src={skill1} className="skill-logo" alt="Logo" />
