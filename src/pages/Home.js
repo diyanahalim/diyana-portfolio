@@ -15,7 +15,7 @@ const Home = () => {
     <div id="home" className="home">
       <div className="left-container">
         <h1 className="introduction-title">
-          Diyana's Portfolio
+          Diyana's Portfolio WOOOOOOOOOOOOOOW
         </h1>
         <h2 className="introduction-description">
           Data Analyst/Frontend Developer 
