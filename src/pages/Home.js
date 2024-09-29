@@ -18,8 +18,8 @@ const Home = () => {
           Diyana's Portfolio
         </h1>
         <h2 className="introduction-description">
-          Data Analyst/
-          <span class="break">Frontend Developer </span>
+          Data Analyst
+          {/* /<span class="break">Frontend Developer </span> */}
         </h2>
         <div className="skills-container">
           <img src={skill1} className="skill-logo" alt="Logo" />
